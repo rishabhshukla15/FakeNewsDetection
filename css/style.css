@@ -1,0 +1,36 @@
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+
+}
+
+.welcome_form input{
+    margin-bottom: 15px ;
+    background-color: transparent;  
+    border: none;
+    border-bottom: 2px solid white;  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome_form button{
+    padding: 20px 0;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    border-radius: 27px;
+    color:  rgb(94, 10, 10); 
+    transition: 0.4s all ;
+}
+
+.welcome_form button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.welcome_form input:focus,
+.welcome_form button:focus{
+    outline: none;
+}
